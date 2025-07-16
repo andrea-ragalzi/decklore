@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "decklore-backend"
+version = "0.1.0"
+package-mode = false
+description = "Backend of Decklore"
+authors = ["Andrea <andrea.ragalzi.code@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.113.0"
+uvicorn = "^0.20.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.6"]
+build-backend = "poetry.core.masonry.api"
